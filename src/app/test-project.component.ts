@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FirstPathComponent } from './+first-path';
-import { Routes , ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from '@angular/router';
+import { Router, Routes , ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from '@angular/router';
 import { SecondPathComponent } from './+second-path';
 
 @Component({
@@ -17,4 +17,8 @@ import { SecondPathComponent } from './+second-path';
 ])
 export class TestProjectAppComponent {
   title = 'test-project works!';
+  
+  constructor(private router:Router) {
+    
+  }
 }
