@@ -18,7 +18,7 @@ import { SecondPathComponent } from './+second-path';
 export class TestProjectAppComponent {
   title = 'test-project works!';
   
-  constructor(private router:Router) {
+  // constructor(private router:Router) {
     
-  }
+  // }
 }
